@@ -1,0 +1,50 @@
+.LoginBox{
+    height: 400px;
+    width: 400px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+.LoginBox h1{
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+.LoginBox form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;   
+    color: #a6a6a6;
+    cursor: pointer;
+   }
+   
+.pass:hover{
+    text-decoration: underline;
+}
+   
+.pass a{
+    color: #a6a6a6; 
+}
+
+.SignUpLink{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.SignUpLink a{
+   color:#2691d9;
+   text-decoration: none;
+}
+
+.SignUpLink a:hover{
+    text-decoration: underline;
+ }
